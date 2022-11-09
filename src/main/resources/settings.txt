@@ -16,3 +16,5 @@
         </profile>
     </profiles>
 </settings>
+
+//mvn clean install && mvn compile && mvn exec:exec

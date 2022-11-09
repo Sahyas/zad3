@@ -8,6 +8,10 @@ package pl.lodz.p.it.isrp;
 public class Start {
 
     public static void main(String[] args) {
+        System.out.println(System.getenv("DB_USERNAME"));
+        System.out.println(System.getenv("DB_PASSWORD"));
+        System.out.println(System.getenv("DB_CONNECTION_URL"));
+        System.out.println(System.getenv("DB_NAME"));
         if (args.length == 0) {
             System.out.println("Brak podanej liczby całkowitej jako argumentu wywołania");
             System.exit(1);
