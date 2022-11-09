@@ -1,0 +1,24 @@
+# IDEA
+# ----
+.idea
+.idea/
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
+
+/out/*.*
+# Others
+# ----
+**/*.class
+**/*.bin
+**/*.build
+**/*.out
+build
+build/
+**/*.jar
+
+# Maven specific
+
+target/
