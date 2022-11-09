@@ -1,0 +1,18 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <profiles>
+        <profile>
+            <id>db_connection_credentials</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <db_name>apache_derby_db</db_name>
+                <db_username>admin</db_username>
+                <db_password>admin</db_password>
+                <db_connection_url>jdbc:derby:/home/student/Pulpit/SortingTable_debug/</db_connection_url>
+            </properties>
+        </profile>
+    </profiles>
+</settings>
